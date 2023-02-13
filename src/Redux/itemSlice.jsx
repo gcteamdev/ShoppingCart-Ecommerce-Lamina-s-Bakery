@@ -29,4 +29,4 @@ const itemSlice = createSlice({
   },
 });
 
-export default itemSlice
+export default itemSlice.reducer

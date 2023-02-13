@@ -1,14 +1,40 @@
 .homePage {
-  padding: 1%;
   color: black;
+  margin: auto;
+  height: 100%;
+  overflow-x: hidden;
+  background-image: url(../assests/bgBakery.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .homePageWrapper {
-  background-color: rgb(248, 244, 245);
-  border-radius: 10px;
-  height: 100%;
-  padding:5%;
-  display:flex;
-  flex-direction: row;
-  width:100vw;
+  display: flex !important;
+  flex-direction: row !important;
   flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.sloganCtn {
+  height: 21vh;
+  background-color:rgba(214, 202, 202, 0.249);
+  margin:auto;
+}
+.itemsHeader span{
+  font-family: cursive;
+  color: rgb(240, 85, 111)
+}
+.sloganP {
+  font-family: cursive;
+  font-size: 25px;
+}
+.cardsWrapper {
+  padding: 3%;
+  margin:auto !important;
+}
+.card-img {
+  height: 200px;
+}
+.card {
+  box-shadow: 0.5px 1px 4px;
+  width: 280px !important;
 }

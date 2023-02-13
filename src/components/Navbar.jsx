@@ -2,31 +2,43 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import "../App.css";
+import './Navbar.css';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
-function BasicExample() {
+function NavBar() {
+  const { cartItemIds } = useSelector((state) => state.cart);
   return (
-    <div className="Navbar">
-      <Navbar  bg='light'expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">mina's Bakes</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <NavDropdown title="Cart" id="basic-nav-dropdown">
-             
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <div className="Navbar ">
+      <Navbar bg="dark" expand="lg">
+        <Container className="container ">
+          <Navbar.Brand href="/">
+            <strong className="text-white display-1">
+              <span className="Lamina">Lamina's</span> Bakes
+            </strong>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="/" className="text-light ">
+                Home
+              </Nav.Link>
+              <NavDropdown title="Menu" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.4">
+                  Menu (coming up soon!)
+                </NavDropdown.Item>
+              </NavDropdown>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+        <Link to="/cart" className="cartCtn">
+          <ShoppingCartOutlinedIcon />
+          {cartItemIds.length}
+        </Link>
+      </Navbar>
     </div>
-    
   );
 }
 
-export default BasicExample;
+export default NavBar;
