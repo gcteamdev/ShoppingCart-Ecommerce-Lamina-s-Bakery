@@ -28,19 +28,19 @@
     font-family: cursive;
   }
 
-  @media only screen and (max-width: 539px)  {
+ @media only screen and (max-width: 539px)  {
     .Navbar{
       height: 30vh
     }
-    .cartCtn{
+   /*  .cartCtn{
     position:absolute;
     left:60%;
     top:50%
-    }
+    } */
   }
-  @media only screen and (min-width: 540px) {
+ /*  @media only screen and (min-width: 540px) {
     .Navbar{
-      height: 25vh
+      height: 20vh
     }
     .cartCtn{
       position:absolute;
@@ -55,4 +55,4 @@
       left:85%;
       top:25%
       }
-  }
+  }  */
