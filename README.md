@@ -1,5 +1,5 @@
 # Created a complete e-commerce website and shopping checkout with React, Rudux toolkit, api and typescript.
-<img src="https://miro.medium.com/max/828/1*FKfDYnucBeQLpwx5O8Mqzg.webp">
+<img src="./src/assests/Lamina's Bakes.png">
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
