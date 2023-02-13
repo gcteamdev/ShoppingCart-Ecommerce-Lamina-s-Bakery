@@ -27,3 +27,9 @@
     color:goldenrod;
     font-family: cursive;
   }
+
+  @media only screen and (max-width: 400px)  {
+    .Navbar{
+      height: 35vh
+    }
+  }

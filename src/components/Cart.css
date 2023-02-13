@@ -23,3 +23,14 @@
   overflow-y: scroll !important;
   padding:3%
 }
+@media only screen and (max-width: 600px)  {
+  .cart-product{
+    display:block;
+    height: 100%;
+  }
+  .checkout{
+    z-index: 999;
+    padding:1%;
+    margin-bottom: 2.5%;
+  }
+}
