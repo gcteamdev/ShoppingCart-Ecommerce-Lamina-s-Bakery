@@ -42,9 +42,9 @@ function Cart() {
             ))}
           </div>
 
-          <div>
+          <div className="checkout">
             <button
-              className="btn btn-success checkout"
+              className="btn btn-success"
               onClick={() => dispatch(clearAllItems())}
             >
               CHECKOUT

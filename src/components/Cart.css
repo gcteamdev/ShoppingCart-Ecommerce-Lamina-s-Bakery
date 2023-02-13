@@ -28,9 +28,16 @@
     display:block;
     height: 100%;
   }
+  
   .checkout{
     z-index: 999;
-    padding:1%;
-    margin-bottom: 2.5%;
+    position:absolute;
+    margin-left: 30%;
+
+  }
+  .addedCards{
+    overflow-x: hidden;
+    margin-left: -10%;
+
   }
 }

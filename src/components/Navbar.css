@@ -28,8 +28,13 @@
     font-family: cursive;
   }
 
-  @media only screen and (max-width: 400px)  {
+  @media only screen and (max-width: 600px)  {
     .Navbar{
       height: 35vh
+    }
+    .cartCtn{
+    position:absolute;
+    left:70%;
+    top:50%
     }
   }
