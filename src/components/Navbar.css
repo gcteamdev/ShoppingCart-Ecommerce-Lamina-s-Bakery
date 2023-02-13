@@ -28,13 +28,31 @@
     font-family: cursive;
   }
 
-  @media only screen and (max-width: 600px)  {
+  @media only screen and (max-width: 539px)  {
     .Navbar{
-      height: 35vh
+      height: 30vh
     }
     .cartCtn{
     position:absolute;
-    left:70%;
+    left:60%;
     top:50%
     }
+  }
+  @media only screen and (min-width: 540px) {
+    .Navbar{
+      height: 25vh
+    }
+    .cartCtn{
+      position:absolute;
+      left:85%;
+      top:50%
+      }
+
+  }
+  @media only screen and (min-width: 850px) {
+    .cartCtn{
+      position:absolute;
+      left:85%;
+      top:25%
+      }
   }
