@@ -35,8 +35,8 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://dribbble.com/Hamja188" target="_blank">
-                  Design
+                <a href="https://gcteam.dev/" target="_blank">
+                  Portfolio
                 </a>
               </li>
               <li>
@@ -109,7 +109,7 @@ function Footer() {
         on <span>Netlify</span>
       </div>
       <div className="copyright text-center">
-        Copyright &copy; 2022 <span>Hamza Dev</span>
+        Copyright &copy; 2023 <span>Hamza Dev</span>
       </div>
     </footer>
   );

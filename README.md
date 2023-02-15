@@ -1,4 +1,5 @@
 # Created a complete e-commerce website and shopping checkout with React, Rudux toolkit, api and typescript.
+## Live Website: [Lamina's Bakes](https://laminabakes.netlify.app/)
 <img src="./src/assests/Lamina's Bakes.png">
 # Getting Started with Create React App
 
