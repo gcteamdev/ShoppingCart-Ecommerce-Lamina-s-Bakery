@@ -13,7 +13,22 @@ function Cart() {
   const cartItemData = itemList.items.filter((item) =>
     cartItemIds.includes(item.id)
   );
+
   const dispatch = useDispatch();
+
+  const prices = [];
+  const cartPrices = cartItemData.map((item) => {
+    let itemprice = item.price;
+    prices.push(itemprice);
+    console.log(prices);
+  });
+
+  const total = prices.reduce(
+    (accumulator, currentValue) => accumulator + currentValue,
+    0
+  );
+
+  console.log(total);
 
   return (
     <div>
@@ -31,6 +46,7 @@ function Cart() {
                 <div className="item-info">
                   <h4>{item.name}</h4>
                   <p className="text-truncate">{item.detail}</p>
+                  <p className="text-truncate">${item.price}</p>
                   <button
                     className="btn btn-warning"
                     onClick={() => dispatch(removeFromCart(item.id))}
@@ -41,6 +57,7 @@ function Cart() {
               </div>
             ))}
           </div>
+          <h1> Total: ${total}</h1>
 
           <div className="checkout">
             <button
