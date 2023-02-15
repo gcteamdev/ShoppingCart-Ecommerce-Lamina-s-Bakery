@@ -28,7 +28,7 @@ function Cart() {
     0
   );
 
-  console.log(total);
+ // console.log(total.toFixed(2));
 
   return (
     <div>
@@ -57,7 +57,7 @@ function Cart() {
               </div>
             ))}
           </div>
-          <h1> Total: ${total}</h1>
+          <h1> Total: ${total.toFixed(2)}</h1>
 
           <div className="checkout">
             <button
