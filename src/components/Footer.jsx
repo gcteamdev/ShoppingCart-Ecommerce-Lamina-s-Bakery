@@ -35,8 +35,8 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://dribbble.com/Hamja188" target="_blank">
-                  Design
+                <a href="https://gcteam.dev/" target="_blank">
+                  Portfolio
                 </a>
               </li>
               <li>
