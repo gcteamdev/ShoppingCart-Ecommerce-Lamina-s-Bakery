@@ -48,7 +48,7 @@ function Cart() {
                   <p className="text-truncate">{item.detail}</p>
                   <p className="text-truncate">${item.price}</p>
                   <button
-                    className="btn btn-warning"
+                    className="btn btn-warning mb-2"
                     onClick={() => dispatch(removeFromCart(item.id))}
                   >
                     <i className="bi bi-trash-fill" /> Remove Item
