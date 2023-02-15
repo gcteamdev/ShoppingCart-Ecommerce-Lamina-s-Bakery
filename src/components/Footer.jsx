@@ -109,7 +109,7 @@ function Footer() {
         on <span>Netlify</span>
       </div>
       <div className="copyright text-center">
-        Copyright &copy; 2022 <span>Hamza Dev</span>
+        Copyright &copy; 2023 <span>Hamza Dev</span>
       </div>
     </footer>
   );
