@@ -1,6 +1,26 @@
-# Created a complete e-commerce website and shopping checkout with React, Rudux toolkit, api and typescript.
+
+# Table of contents
+* Overview
+* Features
+	* Functions
+  * Installations
+* Demo
+	* Live Website  [Lamina's Bakes](https://laminabakes.netlify.app/)
+* License
+  * Distributed under the MIT License. See License.md for more information.
+# Overview 
+  * Created a complete e-commerce website and shopping checkout with React, Rudux toolkit, api and typescript.
+# Features
+* Advance Shopping cart
+* Add and Remove items to the cart
+* Mobile and web responsiveness
+* Increase or decrease or take items off 
+* Group items total
+* Total price calculated dynamically
+---
 ## Live Website: [Lamina's Bakes](https://laminabakes.netlify.app/)
 <img src="./src/assests/Lamina's Bakes.png">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
