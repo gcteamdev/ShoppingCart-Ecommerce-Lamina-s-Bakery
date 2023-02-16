@@ -9,7 +9,7 @@
 * License
   * Distributed under the MIT License. See License.md for more information.
 * Author
-  * Developer: [G. Hamza Choudhury](https://www.linkedin.com/in/devhamza/)
+  * Developer: 👔 🔗 [G. Hamza Choudhury](https://www.linkedin.com/in/devhamza/)
 # Overview 
   * Created a complete e-commerce website and shopping checkout with React, Rudux toolkit, api and typescript.
 # Features
