@@ -10,15 +10,15 @@ import { useSelector } from 'react-redux';
 function NavBar() {
   const { cartItemIds } = useSelector((state) => state.cart);
   return (
-    <div className="Navbar ">
-      <Navbar bg="dark" expand="lg">
-        <Container className="container ">
+    <div className="Navbar">
+      <Navbar bg="none" expand="lg">
+        <Container className="container">
           <Navbar.Brand href="/">
-            <strong className="text-white display-1">
+            <strong className="text-white display-1 logo">
               <span className="Lamina">Lamina's</span> Bakes
             </strong>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-white" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/" className="text-light ">

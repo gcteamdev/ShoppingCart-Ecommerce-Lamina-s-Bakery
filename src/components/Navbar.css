@@ -28,31 +28,18 @@
     font-family: cursive;
   }
 
- @media only screen and (max-width: 539px)  {
+ 
+  @media only screen and (max-width: 539px)  {
     .Navbar{
-      height: 33vh
+      height:18vh;
     }
-   /*  .cartCtn{
-    position:absolute;
-    left:60%;
-    top:50%
-    } */
-  }
- /*  @media only screen and (min-width: 540px) {
-    .Navbar{
-      height: 20vh
+    .logo{
+      font-size: 30px !important;
+      background-color: rgba(3, 20, 35, 0.839) !important;
+      border-radius: 15px;
     }
     .cartCtn{
-      position:absolute;
-      left:85%;
-      top:50%
-      }
-
+      background-color: rgba(161, 151, 151, 0.722);
+      border-radius: 50px;
+    }
   }
-  @media only screen and (min-width: 850px) {
-    .cartCtn{
-      position:absolute;
-      left:85%;
-      top:25%
-      }
-  }  */

@@ -49,13 +49,13 @@ function Cart() {
                 <div className="itemInfo">
                   <h4>{item.name}</h4>
                   <p className="text-truncate">${item.price}</p>
-                  <div className="quantity d-flex">Qt:
+                  <div className="quantity">Qt:
                     <button className="btn btn-warning" onClick={() => decrementQuantity(item.id)}>
-                      -
+                    <h4>-</h4> 
                     </button>
-                    <span className="count">{getItemQuantity(item.id)}</span>
+                    <span className="count m-5 display-6">{getItemQuantity(item.id)}</span>
                     <button className="btn btn-success" onClick={() => incrementQuantity(item.id)}>
-                      +
+                     <h4>+</h4> 
                     </button>
                   </div>
                   <p>Total: ${getItemTotalPrice(item.id).toFixed(2)}</p>
