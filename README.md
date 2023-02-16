@@ -2,8 +2,17 @@
 # Table of contents
 * Overview
 * Features
-	* Functions
+  * <a href="Features">Functions </a>
   * Installations
+  * Made with:
+    * React.Js
+    * Redux Toolkit
+    * Redux Thunk
+    * JavaScript
+    * HTML / CSS
+    * Material UI
+    * Bootstrap
+    * Node.js
 * Demo
 	* Live Website  [Lamina's Bakes](https://laminabakes.netlify.app/)
 * License
@@ -12,7 +21,7 @@
   * Developer: 👔 🔗 [G. Hamza Choudhury](https://www.linkedin.com/in/devhamza/)
 # Overview 
   * Created a complete e-commerce website and shopping checkout with React, Rudux toolkit, api and typescript.
-# Features
+# <div id="Features">Features</div>
 * Advance Shopping cart
 * Add and Remove items to the cart
 * Mobile and web responsiveness
