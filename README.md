@@ -2,7 +2,7 @@
 # Table of contents
 * Overview
 * Features
-  * <a href="Features">Functions </a>
+  * <a href="#Features">Functions </a>
   * Installations
   * Made with:
     * React.Js
