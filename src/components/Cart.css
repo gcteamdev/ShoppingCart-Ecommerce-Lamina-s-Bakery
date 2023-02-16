@@ -25,9 +25,7 @@
   background-color: rgba(210, 105, 30, 0.367) ;
 }
 .itemInfo{
-display:flex;
-justify-content: space-between;
-flex-direction: row;
+ display:block;
 }
 .itemImg{
   height:18vh;
