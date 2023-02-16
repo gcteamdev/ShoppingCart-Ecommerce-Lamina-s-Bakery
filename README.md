@@ -9,7 +9,7 @@
 * License
   * Distributed under the MIT License. See License.md for more information.
 * Author
-  * Developer: G. Hamza Choudhury
+  * Developer: [G. Hamza Choudhury](https://www.linkedin.com/in/devhamza/)
 # Overview 
   * Created a complete e-commerce website and shopping checkout with React, Rudux toolkit, api and typescript.
 # Features
@@ -19,9 +19,8 @@
 * Increase or decrease or take items off 
 * Group items total
 * Total price calculated dynamically
----
 ## Live Website: [Lamina's Bakes](https://laminabakes.netlify.app/)
-<img src="./src/assests/Lamina's Bakes.png">
+## <img src="./src/assests/Lamina's Bakes.png">
 
 ### <div align="center">👋,Hello 🌍 I'm Hamza <img src="https://media.giphy.com/media/OqFpgF7bet1sRoCmpb/giphy.gif" width="60"> </div>
 
