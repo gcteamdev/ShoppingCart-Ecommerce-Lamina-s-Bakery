@@ -28,7 +28,7 @@ function Cart() {
     0
   );
 
- // console.log(total.toFixed(2));
+  // console.log(total.toFixed(2));
 
   return (
     <div>
@@ -38,22 +38,26 @@ function Cart() {
             Items in cart:
             <span className="text-success">{cartItemData.length}</span>
           </h3>
-          <div className="addedCards">
+          <div className="addedCards rounded">
             {cartItemData.map((item) => (
-              <div key={item.id} className="row card m-5">
-                <img className="item-image" src={item.imageUrl} alt="product" />
+              <div key={item.id} className="row card m-5 ">
+                <img
+                  className="itemImg p-2"
+                  src={item.imageUrl}
+                  alt="product"
+                />
 
-                <div className="item-info">
+                <div className="itemInfo">
                   <h4>{item.name}</h4>
-                  <p className="text-truncate">{item.detail}</p>
                   <p className="text-truncate">${item.price}</p>
-                  <button
-                    className="btn btn-warning mb-2"
-                    onClick={() => dispatch(removeFromCart(item.id))}
-                  >
-                    <i className="bi bi-trash-fill" /> Remove Item
-                  </button>
                 </div>
+                <button
+                  className="btn btn-warning mb-2"
+                  onClick={() => dispatch(removeFromCart(item.id))}
+                >
+                  <i className="bi bi-trash-fill" /> Remove Item
+                </button>
+                <p>Item Count:{item.id.length}</p>
               </div>
             ))}
           </div>

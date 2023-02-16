@@ -21,7 +21,16 @@
   position: sticky;
   top: 50%;
   overflow-y: scroll !important;
-  padding:3%
+  padding:3%;
+  background-color: rgba(210, 105, 30, 0.367) ;
+}
+.itemInfo{
+display:flex;
+justify-content: space-between;
+flex-direction: row;
+}
+.itemImg{
+  height:18vh;
 }
 @media only screen and (max-width: 600px)  {
   .cart-product{
@@ -33,6 +42,7 @@
     z-index: 999;
     position:absolute;
     margin-left: 30%;
+    margin-top: 2%;
 
   }
   .addedCards{
