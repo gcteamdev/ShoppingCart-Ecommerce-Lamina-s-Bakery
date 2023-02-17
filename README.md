@@ -3,7 +3,7 @@
 * Overview
 * Features
   * <a href="#Features">Functions </a>
-  * Installations
+  * <a href="#installing">Installations</a>
   * Made with:
     * React.Js
     * Redux Toolkit
@@ -37,7 +37,7 @@
 
 ## <div align="center">💻 [Portfolio Website](https://gcteam.dev) </div>
 
-# Installation Instructions
+# <div id="installing">Installation Instructions</div>
 
 1. To install Node Package Manager (npm), visit the [official website](https://www.npmjs.com/get-npm) and follow the instructions for your operating system.
 
