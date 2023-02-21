@@ -17,7 +17,7 @@
 	* Live Website  [Lamina's Bakes](https://laminabakes.netlify.app/)
 * License
   * Distributed under the MIT License. See License.md for more information.
-* Author
+* <a href="#author">Author<a/>
   * Developer: 👔 🔗 [G. Hamza Choudhury](https://www.linkedin.com/in/devhamza/)
 # <div id="overview">Overview </div>
    ## Created a complete e-commerce website and shopping checkout with React, Rudux toolkit, api and typescript.
@@ -31,7 +31,7 @@
 ## Live Website: [Lamina's Bakes](https://laminabakes.netlify.app/)
 ## <img src="./src/assests/Lamina's Bakes.png">
 
-### <div align="center">👋,Hello 🌍 I'm Hamza <img src="https://media.giphy.com/media/OqFpgF7bet1sRoCmpb/giphy.gif" width="60"> </div>
+### <div align="center" id="author">👋,Hello 🌍 I'm Hamza <img src="https://media.giphy.com/media/OqFpgF7bet1sRoCmpb/giphy.gif" width="60"> </div>
 
 #### <div align="center"> A 🧑🏻‍💻 Frontend Developer || Full-Stack developer. </div>
 
