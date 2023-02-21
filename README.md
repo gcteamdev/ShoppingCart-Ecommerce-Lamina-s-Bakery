@@ -9,7 +9,8 @@
     * Redux Toolkit
     * Redux Thunk
     * JavaScript
-    * HTML / CSS
+    * HTML
+    * CSS
     * Material UI
     * Bootstrap
     * Node.js
