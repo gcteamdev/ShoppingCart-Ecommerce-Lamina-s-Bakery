@@ -26,7 +26,7 @@
 * Advance Shopping cart
 * Add and Remove items to the cart
 * Mobile and web responsiveness
-* Increase or decrease or take items off 
+* Increase or decrease items or take items off 
 * Group items total
 * Total price calculated dynamically
 ## Live Website: [Lamina's Bakes](https://laminabakes.netlify.app/)
