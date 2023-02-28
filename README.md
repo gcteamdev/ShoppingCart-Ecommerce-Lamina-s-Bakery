@@ -32,7 +32,7 @@
 ## Live Website: [Lamina's Bakes](https://laminabakes.netlify.app/)
 ## <img src="./src/assests/Lamina's Bakes.png">
 
-### <div align="center" id="author">👋,Hello 🌍 I'm Hamza <img src="https://media.giphy.com/media/OqFpgF7bet1sRoCmpb/giphy.gif" width="60"> </div>
+### <div align="center" id="author">👋,Hello 🌍 I'm Hamza  </div>
 
 #### <div align="center"> A 🧑🏻‍💻 Frontend Developer || Full-Stack developer. </div>
 
