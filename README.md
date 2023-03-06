@@ -27,7 +27,7 @@
 * Add and Remove items to the cart
 * Mobile and web responsiveness
 * Increase or decrease items or take items off 
-* Group items total
+* Group items $total
 * Total price calculated dynamically
 ## Live Website: [Lamina's Bakes](https://laminabakes.netlify.app/)
 ## <img src="./src/assests/Lamina's Bakes.png">
