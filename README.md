@@ -34,7 +34,7 @@
 
 ### <div align="center" id="author">👋,Hello 🌍 I'm Hamza  </div>
 
-#### <div align="center"> A 🧑🏻‍💻 Frontend Developer | Full-Stack developer. </div>
+### <div align="center"> A 🧑🏻‍💻 Frontend Developer | Full-Stack developer. </div>
 
 ## <div align="center">💻 [Portfolio Website](https://gcteam.dev) </div>
 
