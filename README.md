@@ -1,5 +1,5 @@
 
-# Table of contents
+# Table of contents:
 * <a href="#overview">Overview </a>
 * Features
   * <a href="#Features">Functions </a>
